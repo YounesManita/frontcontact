@@ -6,10 +6,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const ContactModal = ({ isOpen, onClose }) => {
-    if (!isOpen) return null; // Si la modale est fermée, rien n'est rendu.
+    if (!isOpen) return null; 
   
     return (
-      <div className={`modal-overlay ${isOpen ? 'active' : ''}`}> {/* Ajoutez 'active' quand la modale est ouverte */}
+      <div className={`modal-overlay ${isOpen ? 'active' : ''}`}> 
         <div className="modal-container">
           <h2>Presupuesto con Mejor Calidad Precio Madrid</h2>
           <form className="contact-form">
@@ -46,14 +46,14 @@ const ServiceDetails = () => {
   const location = useLocation();
   const { service } = location.state;
 
-  const [isModalOpen, setIsModalOpen] = useState(false); // État pour contrôler la modale
+  const [isModalOpen, setIsModalOpen] = useState(false); 
 
   const handleOpenModal = () => {
-    setIsModalOpen(true); // Ouvre la modale
+    setIsModalOpen(true);
   };
 
   const handleCloseModal = () => {
-    setIsModalOpen(false); // Ferme la modale
+    setIsModalOpen(false); 
   };
 
   const sliderSettings = {

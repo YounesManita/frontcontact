@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 const ContactPage = () => {
-  // États pour gérer les valeurs du formulaire
+ 
   const [formData, setFormData] = useState({
     name: "",
     prename: "",
@@ -52,12 +52,12 @@ const ContactPage = () => {
         Si tienes alguna pregunta o necesitas ayuda, ¡no dudes en contactarnos!
       </p>
 
-      {/* Affichage du message de succès ou d'erreur */}
+     
       {statusMessage && <p>{statusMessage}</p>}
 
-      {/* Formulaire et carte dans la même ligne */}
+  
       <div style={styles.formAndMapContainer}>
-        {/* Formulaire de contact */}
+       
         <form style={styles.form} onSubmit={handleSubmit}>
           <input
             type="text"
@@ -108,7 +108,7 @@ const ContactPage = () => {
           <button type="submit" style={styles.button}>Enviar</button>
         </form>
 
-        {/* Carte Google Maps */}
+       
         <div style={styles.map}>
           <iframe
             title="Ubicación"
@@ -123,20 +123,20 @@ const ContactPage = () => {
   );
 };
 
-// Estilos en JavaScript
+
 const styles = {
   container: {
     textAlign: "center",
     padding: "40px",
-    backgroundColor: "rgba(234, 240, 244, 0.84)", // Color principal
+    backgroundColor: "rgba(234, 240, 244, 0.84)", 
     color: "#333",
     fontFamily: "Arial, sans-serif",
     margin: "0 auto",
-    maxWidth: "1200px", // Limita el ancho del contenedor para mayor legibilidad
+    maxWidth: "1200px",
   },
   title: {
     fontSize: "2.5em",
-    color: "#5a5aad", // Color del título
+    color: "#5a5aad", 
     marginBottom: "10px",
   },
   description: {
@@ -145,14 +145,14 @@ const styles = {
   },
   formAndMapContainer: {
     display: "flex",
-    justifyContent: "space-between", // Alineación lado a lado
+    justifyContent: "space-between", 
     marginTop: "40px",
   },
   form: {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    width: "48%", // 48% para que el mapa encaje en la misma línea
+    width: "48%", 
     boxShadow: "0 4px 10px rgba(0, 0, 0, 0.1)",
     padding: "20px",
     borderRadius: "10px",
@@ -189,8 +189,8 @@ const styles = {
     transition: "background-color 0.3s ease, transform 0.3s ease",
   },
   map: {
-    width: "48%", // 48% para que sea equivalente al formulario
-    height: "400px", // Altura ajustada del mapa
+    width: "48%", 
+    height: "400px", 
     textAlign: "center",
     borderRadius: "10px",
   },

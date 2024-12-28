@@ -1,26 +1,25 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaHome, FaCog, FaPhoneAlt, FaInfoCircle, FaUser, FaSignOutAlt, FaCommentAlt, FaBars, FaTimes } from 'react-icons/fa';
-import './Navbar.css'; // Ajoutez un fichier CSS externe
+import './Navbar.css'; 
 import Logo from '../../public/assets/wael.jpeg';
 const Navbar = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // Vérifier l'état de connexion au chargement du composant
+ 
   useEffect(() => {
     const token = localStorage.getItem('authToken');
-    setIsLoggedIn(!!token); // Si un token est présent, l'utilisateur est connecté
+    setIsLoggedIn(!!token); 
   }, []);
 
   const handleLogout = () => {
-    localStorage.removeItem('authToken'); // Supprimer le token de localStorage
-    setIsLoggedIn(false); // Mettre à jour l'état de la connexion
-    setIsMenuOpen(false); // Fermer le menu après déconnexion
+    localStorage.removeItem('authToken');
+    setIsLoggedIn(false); 
   };
 
   const colors = ['#ADD8E6', '#4682B4', '#808080', '#000000', '#8A2BE2'];
-  const word = 'OUTDOOR';
+  const word = 'portorrealobros';
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);

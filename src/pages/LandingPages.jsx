@@ -25,7 +25,7 @@ const LoadingPage = () => (
       animate={{ opacity: 1 }}
       transition={{ duration: 2, delay: 1 }} // Délai de 1 seconde avant l'apparition
     >
-      Chargement en cours...
+   Estamos realizando mantenimiento. Volveremos pronto. ¡Gracias por tu paciencia!
     </motion.h2>
     <motion.p
       style={styles.description}

@@ -1,0 +1,318 @@
+/* Styles globaux */
+.container {
+  
+
+    width: '100%';
+    height: '100vh';
+    overflow: 'hidden';
+   
+    font-family: 'Arial, sans-serif',
+  }
+  
+  .home {
+    background-image: url("https://portorrealobros.com/wp-content/uploads/2024/12/pexels-mikael-blomkvist-8961133-scaled.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 750px;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .hero {
+    text-align: center;
+    background-color: rgba(156, 172, 189, 0.7); /* Bleu transparent */
+    border-radius: 50px;
+    margin: 2rem auto;
+    width: 90%;
+    height: 300px; /* Hauteur spécifique de la section */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère autour du conteneur */
+    padding: 1rem; /* Ajoute de l'espace interne autour du contenu */
+  }
+  
+  .heroTitle {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .brand {
+    color: #ffc107; /* Couleur or pour le branding */
+  }
+  
+  .heroSubtitle {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    margin-top: 1rem;
+  }
+  
+  .sectionTitle {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0;
+    color: #007bff;
+    font-weight: bold;
+  }
+  .video {
+    
+   
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+  }
+  .services {
+    padding: 2rem 0;
+    background-color: #f8f9fa;
+  }
+  
+  .serviceCards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    text-align: center;
+    max-width: 280px;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  
+  .cardTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #007bff;
+  }
+  
+  .cardDesc {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 0.5rem;
+  }
+  
+  .image {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    object-fit: cover;
+  }
+  
+  .gallery {
+    margin-top: 3rem;
+    padding: 2rem 0;
+  }
+  
+  .photos {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .photoCard {
+    max-width: 220px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  
+  .photo {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .photoDesc {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    color: #007bff;
+  }
+  
+  /* Media Queries pour les écrans plus petits */
+  @media (max-width: 768px) {
+    .hero {
+      height: 250px; /* Réduit la hauteur de la section héro sur mobile */
+      padding: 0.5rem;
+    }
+  
+    .heroTitle {
+      font-size: 2rem; /* Réduit la taille du titre */
+    }
+  
+    .heroSubtitle {
+      font-size: 1rem; /* Réduit la taille de la sous-titre */
+    }
+  
+    .sectionTitle {
+      font-size: 2rem; /* Réduit la taille de titre de la section */
+    }
+  
+    .serviceCards {
+      gap: 1rem; /* Réduit l'écart entre les cartes */
+      flex-direction: column; /* Aligne les cartes en colonne sur mobile */
+    }
+  
+    .card {
+      max-width: 100%; /* Les cartes prennent 100% de la largeur sur mobile */
+      padding: 1rem;
+    }
+  
+    .gallery {
+      margin-top: 2rem;
+    }
+  
+    .photoCard {
+      max-width: 150px; /* Réduit la taille des photos */
+    }
+  }
+  
+  /* Media Queries pour les écrans plus petits que 480px (mobile) */
+  @media (max-width: 480px) {
+    .heroTitle {
+      font-size: 1.5rem; /* Encore plus petit sur les très petits écrans */
+    }
+  
+    .heroSubtitle {
+      font-size: 0.9rem; /* Plus petit pour mobile */
+    }
+  
+    .sectionTitle {
+      font-size: 1.8rem; /* Plus petit pour mobile */
+    }
+  
+    .photoDesc {
+      font-size: 0.8rem; /* Réduit la taille de la description */
+    }
+  }
+  /* Style for the container */
+.container {
+    padding: 2rem;
+    background: linear-gradient(to right, #e0f2ff, #cce4ff);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Style for each section */
+  .section {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 6%;
+    margin-bottom: 3rem;
+  }
+  
+  /* Style for the image and text container */
+  .image-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  /* Style for images */
+  .image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+  }
+  
+  /* Style for the text */
+  .text {
+    max-width: 50%;
+    color: #1e3a8a;
+  }
+  
+  .text h2 {
+    font-size: 1.5rem;
+    color: #1d4ed8;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .text p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #1e40af;
+  }
+  .testimonials-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fffafc;
+  }
+  
+  .testimonials-section h2 {
+    font-size: 2.5rem;
+    color: #4a4a4a;
+    margin-bottom: 40px;
+  }
+  
+  .testimonials-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .testimonial-card {
+    background: #a4e1f2;
+    border-radius: 30% 15% 20% 30%; /* Corrected syntax */
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+  .testimonial-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .client-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid #a64da9;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-card h3 {
+    font-size: 1.2rem;
+    color: #2b2b2b;
+    margin-bottom: 5px;
+  }
+  
+  .profession {
+    color: #ff79a8;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .rating {
+    color: #ffcc00;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .feedback {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  

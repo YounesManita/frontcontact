@@ -12,11 +12,11 @@
   }
   .logo-image {
     height: 100px; /* Ajustez selon vos besoins */
-   /* Espace entre le logo et le texte */
+ 
   }
   .logo {
     font-size: 2rem;
-    margin-left: -26%;
+   
     font-weight: bold;
     letter-spacing: 2px;
     cursor: pointer;

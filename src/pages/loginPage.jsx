@@ -48,7 +48,7 @@ const LoginPage = () => {
     <div style={styles.container}>
       <header style={styles.header}>
         <h1 style={styles.logo}>
-        port<span style={{ color: "dodgerblue" }}>orr</span>ealo<span style={{ color: "purple" }}>br</span>os
+        port<span style={{ color: "dodgerblue" }}>orr</span>ealo<span style={{ color: "purple" }}>br</span>as
         </h1>
       </header>
       <div style={styles.loginBox}>

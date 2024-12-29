@@ -1,5 +1,5 @@
 import React from 'react';
-import './AboutUs.css';
+import './aboutUs.css';
 import { useNavigate } from 'react-router-dom';
 
 const AboutUs = () => {

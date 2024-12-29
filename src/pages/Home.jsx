@@ -134,7 +134,7 @@ const Home = () => {
     >
     
       <h1 style={styles.heroTitle}>
-        Bienvenidos a <span style={styles.brand}>OUTDOOR</span>
+        Bienvenidos a <span style={styles.brand}>portorrealobras</span>
       </h1>
       <p style={styles.heroSubtitle}>
         Líder en renovación y mantenimiento para casas y locales comerciales.

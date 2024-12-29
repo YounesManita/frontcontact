@@ -19,7 +19,7 @@ const Navbar = () => {
   };
 
   const colors = ['#ADD8E6', '#4682B4', '#808080', '#000000', '#8A2BE2'];
-  const word = 'portorrealobros';
+  const word = 'portorrealobras';
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);

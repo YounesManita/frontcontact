@@ -8,7 +8,7 @@ const Services = () => {
   const services = [
     {
       id: 1,
-      title: "Albanileria",
+      title: "Albañilería",
       paragraphs: [
         "Reformas de albañilería para mejorar y renovar tu hogar o espacio comercial.",
         "Trabajamos con materiales de alta calidad para garantizar durabilidad.",
@@ -106,7 +106,7 @@ const Services = () => {
       
     },
       {
-        id: 8, // ID du nouveau service
+        id: 8, 
         title: "Pladur",
         paragraphs: [
           "Especialistas en instalación de pladur para paredes y techos.",

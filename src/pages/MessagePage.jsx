@@ -10,7 +10,7 @@ const MessagesListPage = () => {
   useEffect(() => {
     const fetchMessages = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/contact/getallcontacts");
+        const response = await axios.get("https://www.portorrealobros.casa/api/contact/getallcontacts");
         
         if (Array.isArray(response.data.data)) {
           setMessages(response.data.data); 

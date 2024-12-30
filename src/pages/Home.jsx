@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './index.css';
-import { useNavigate } from 'react-router-dom'; // Import du hook useNavigate
+import { useNavigate } from 'react-router-dom'; 
 
 import background from "../assets/background.mp4"
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
   };
   const realisation = [
     {
-      src: '/assets/wael1.jpg', // Remplacer par une image réelle
+      src: '/assets/wael1.jpg', 
       title: 'Service 1',
     },
     {
@@ -33,7 +33,7 @@ const Home = () => {
       title: 'Service 4',
     },
     {
-      src: '/assets/image5.jpg', // Remplacer par une image réelle
+      src: '/assets/image5.jpg', 
       title: 'Service 1',
     },
     {
@@ -114,13 +114,13 @@ const Home = () => {
   
   return (
     <div style={styles.container}>
-      {/* Section Héro */}
+ 
       
       <section style={styles.home}>
       
   <div style={styles.hero}>
      <a
-      href="https://wa.me/+34656891064" // Remplacez ce numéro par le vôtre
+      href="https://wa.me/+34656891064" 
       target="_blank"
       rel="noopener noreferrer"
       style={styles.whatsappButton}
@@ -221,15 +221,15 @@ const Home = () => {
 
 
 
-      {/* Section Services */}
+ 
       <div className="container">
-  {/* Vidéo en arrière-plan */}
+
   <video src={background} autoPlay loop muted className="video">
     <source src="background.mp4" type="video/mp4" />
     Votre navigateur ne supporte pas la balise vidéo.
   </video>
 
-  {/* Section des services */}
+
   <motion.div
     className="services"
     initial={{ opacity: 0 }}
@@ -256,7 +256,6 @@ const Home = () => {
 </div>
 
 
-      {/* Section Galerie */}
       <motion.div
     style={styles.gallery}
     initial={{ opacity: 0 }}

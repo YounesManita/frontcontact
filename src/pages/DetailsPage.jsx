@@ -87,7 +87,7 @@ const ServiceDetails = () => {
       </div>
 
       <button onClick={handleOpenModal} className="contact-btn">
-      Contáctenos
+      Contactos
       </button>
 
       

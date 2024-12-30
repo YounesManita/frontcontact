@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 const AboutUs = () => {
   const teamMembers = [
-    { name: "Wael Hssairi", position: "CEO", image: "/assets/weal.jpg" },
+    { name: "Andrés Portorreal obras", position: "CEO", image: "" },
     
   ];
   

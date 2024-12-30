@@ -28,7 +28,7 @@ const ContactPage = () => {
     
     try {
    
-      const response = await axios.post("http://localhost:5000/contact/sendcontact", formData);
+      const response = await axios.post("https://www.portorrealobros.casa/api/contact/sendcontact", formData);
       
     
       setStatusMessage("¡Gracias por tu mensaje! Te responderemos pronto.");

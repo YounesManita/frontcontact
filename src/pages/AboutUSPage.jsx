@@ -35,14 +35,14 @@ const AboutUs = () => {
         </div>
       </section>
 
-      {/* Sección de miembros del equipo */}
+     
       <section className="team-section">
         <div className="container">
           <h2>Conoce a Nuestro Equipo</h2>
           <div className="team-members">
             {teamMembers.map((member, index) => (
               <div className="team-member" key={index}>
-                <img src={member.image} alt={member.name} className="team-member-img" />
+             
                 <h3>{member.name}</h3>
                 <p>{member.position}</p>
               </div>

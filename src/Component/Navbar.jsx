@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaHome, FaCog, FaPhoneAlt, FaInfoCircle, FaUser, FaSignOutAlt, FaCommentAlt, FaBars, FaTimes } from 'react-icons/fa';
 import './Navbar.css'; 
-import Logo from '../../public/assets/wael.jpeg';
+import Logo from '../../public/assets/logo.jpeg';
 const Navbar = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);

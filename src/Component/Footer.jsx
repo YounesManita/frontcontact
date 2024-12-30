@@ -17,7 +17,7 @@ const Footer = () => (
             <FaInstagram />
           </a>
           <a
-            href="https://www.facebook.com/profile.php?id=61571132330902"
+            href="https://www.facebook.com/profile.php?id=61571395015331"
             target="_blank"
             rel="noopener noreferrer"
             style={styles.icon}
@@ -52,7 +52,7 @@ const Footer = () => (
       </div>
 
       <div style={styles.contactSection}>
-        <p style={styles.contactText}>Contactanos: <strong>waelhsairi6@gmail.com</strong></p>
+        <p style={styles.contactText}>Contactanos: <strong>Portorreal.obras@gmail.com</strong></p>
         <p style={styles.workHours}>
           Horarios de trabajo: Lunes - Viernes: 9:00 AM - 6:00 PM | Sábado: 10:00 AM - 2:00 PM
         </p>
